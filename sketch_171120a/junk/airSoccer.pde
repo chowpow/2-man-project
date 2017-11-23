@@ -3,8 +3,7 @@
 class Player{
   PImage Barca;
   PImage Madrid;
-  float gswX, gswY;
-  //float ba,caX, barcaY;
+  //float barcaX, barcaY;
   //data
   
   
@@ -38,10 +37,8 @@ class Player{
      
   }
   void display2(){
-    image(Madrid, 600, 400, width * 0.1, height *.15);
+    image(Madrid, 600, 400, width * 0.1, height *.3);
     
   }
   
-  void move(){
-  }
 }
